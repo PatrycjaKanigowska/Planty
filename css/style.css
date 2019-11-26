@@ -1,0 +1,279 @@
+@import url(reset.css);
+
+/* ------------------------------Basic styles------------------------------------ */
+html {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li, h4, h3, h2, .role, .copyrights, footer ul {
+    text-align: center;
+}
+
+.btn, .photo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* ------------------------------Fonts------------------------------------ */
+nav li,
+h2, 
+h3, 
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav li,
+h1,
+h2,
+h4 {
+    font-weight: 700;
+}
+
+h2,
+h3,
+h4 {
+    font-style: italic;
+}
+
+h1,
+.btn,
+.role {
+    text-transform: uppercase;
+}
+       
+a {
+    text-decoration: none;
+}
+
+nav a:link,
+nav a:active,
+nav a:hover,
+nav a:visited { 
+    color: #000;
+}
+
+/* ------------------------------Header------------------------------------ */
+ul li {
+    font-size: 30px;
+    padding: 10px 0;
+} 
+
+/* ------------------------------About------------------------------------ */
+h1 {
+   font-size:  22px;
+}
+
+figure {
+    position: relative;
+}
+
+.mobile {
+    position: absolute;
+    width: 80%;
+    right: 2%;
+    top: 70px;
+}
+
+.plant {
+    width: 90%;
+}
+
+/* ------------------------------Nature------------------------------------ */
+h4 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.nature {
+    background-image: url(../img/bg@2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------------------------Reviews------------------------------------ */
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.role {
+    font-size: 16px;
+}
+
+.expert {
+    border: 5px solid #b7dbc8;
+    margin-bottom: 30px;
+}
+
+.photo {
+    width: 35%;
+}
+
+.description {
+    padding: 0 40px;
+}
+
+/* ------------------------------Contact------------------------------------ */
+input {
+    border-bottom: 2px solid #051405;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    box-shadow: none;
+}
+
+input, textarea {
+    width: 100%;
+    background: none;
+    color: #051405;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    border: 2px solid #051405;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    width: 240px;
+    background: #acceb7;
+    cursor: pointer;
+}
+
+.contact form {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* ------------------------------Footer------------------------------------ */
+.copyrights {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.icon {
+    width: 50px;
+    margin: 10px 5px;
+}
+
+footer a:link,
+footer a:active,
+footer a:hover,
+footer a:visited { 
+    color: #fff;
+}
+
+footer {
+    background-color: #acceb7;
+}
+
+footer li {
+    display: inline-block;
+}
+
+/* ------------------------480px--------------------------------- */
+@media (min-width: 480px) {
+    h4 {
+        font-size: 40px;
+        line-height: 45px;
+        padding: 40px 0;
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+    
+    .role {
+        font-size: 20px;
+    }
+}
+
+/* ------------------------768px--------------------------------- */
+@media (min-width: 768px) {
+    
+    html {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 62px;
+    }
+    
+    h2 {
+        font-size: 82px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .role {
+        font-size: 22px;
+    }
+    
+    input, textarea {
+        font-size: 22px;
+    }
+    
+    .btn {
+        font-size: 25px;
+    }
+    
+    .icon {
+        width: 130px;
+    }
+    
+    nav li {
+        display: inline-block;
+        padding: 10px 3%;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+}
+
+
+/* ------------------------1200px--------------------------------- */
+@media (min-width: 1200px) {
+    
+    
+}
