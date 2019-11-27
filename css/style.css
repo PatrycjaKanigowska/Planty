@@ -183,8 +183,9 @@ textarea {
     width: 400px;
     max-width: 100%;
     margin: 0 auto;
-}
+    }
 
+}
 
 /* ------------------------------Footer------------------------------------ */
 .copyrights {
@@ -221,30 +222,71 @@ footer li {
         padding: 40px 0;
     }
     
-    h2 {
-        font-size: 50px;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-    
-    .role {
-        font-size: 20px;
-    }
-    
     .photo {
-        width: 150px;
-        position: relative;
-        top: -80px;
-        left: 0;
-        right: 0;
+        width: 120px;
+        top: 27px;
+        left: -55px;
+        right: auto;
+    }
+    
+    .expert {
+        margin-left: 50px;
+        margin-top: 30px;
+        max-width: 450px;
+    }
+    
+    h3, .role, .description {
+        text-align: left;
+        padding-left: 90px;
+    }
+    
+    h3 {
+        padding-top: 20px;
+    }
+    
+    .reviews .container {
+        display: grid;
+        place-items: center;
+    }
+    
+    nav li {
+        display: inline-block;
+        padding: 10px 3%;
+    }
+    
+    nav ul {
+        text-align: center;
     }
 }
 
 /* ------------------------768px--------------------------------- */
 @media (min-width: 768px) {
     
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    
+    .role {
+        font-size: 20px;
+    }
+    
+    .description {
+        padding-bottom: 30px;
+    }
+    
+    .role {
+        padding-bottom: 40px;
+    }
+    
+}
+
+/* ------------------------1200px--------------------------------- */
+@media (min-width: 1200px) {
     html {
         font-size: 22px;
     }
@@ -276,20 +318,5 @@ footer li {
     .icon {
         width: 130px;
     }
-    
-    nav li {
-        display: inline-block;
-        padding: 10px 3%;
-    }
-    
-    nav ul {
-        text-align: center;
-    }
-}
-
-
-/* ------------------------1200px--------------------------------- */
-@media (min-width: 1200px) {
-    
     
 }
