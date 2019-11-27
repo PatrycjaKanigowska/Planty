@@ -21,7 +21,7 @@ img {
     box-sizing: border-box;
 }
 
-li, h4, h3, h2, .role, .copyrights, footer ul {
+li, h4, h3, h2, .role, .description, .copyrights, footer ul {
     text-align: center;
 }
 
@@ -119,23 +119,31 @@ h2 {
 
 h3 {
     font-size: 25px;
+    padding: 60px 0 6px;
 }
 
 .role {
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 .expert {
     border: 5px solid #b7dbc8;
-    margin-bottom: 30px;
+    position: relative;
+    margin-top: 70px;
 }
 
 .photo {
-    width: 35%;
+    width: 110px;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
 }
 
 .description {
-    padding: 0 40px;
+    line-height: 22px;
+    padding: 0 6% 20px;
 }
 
 /* ------------------------------Contact------------------------------------ */
@@ -223,6 +231,14 @@ footer li {
     
     .role {
         font-size: 20px;
+    }
+    
+    .photo {
+        width: 150px;
+        position: relative;
+        top: -80px;
+        left: 0;
+        right: 0;
     }
 }
 
