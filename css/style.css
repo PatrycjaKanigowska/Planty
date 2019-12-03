@@ -94,8 +94,22 @@ figure {
     top: 70px;
 }
 
-.plant {
-    width: 90%;
+.plant-1 {
+    width: 95%;
+}
+
+.plant-1::after {
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    border: 3px solid #acceb7;
+    top: 3.5%;
+    left: 4%;
+}
+
+.about p {
+    margin-top: 50px;
 }
 
 /* ------------------------------Nature------------------------------------ */
