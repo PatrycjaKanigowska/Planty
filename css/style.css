@@ -290,10 +290,6 @@ footer p {
 
 /* ------------------------480px--------------------------------- */
 @media (min-width: 480px) {
-    .container {
-    padding: 0 5%;
-}
-
     .about p {
         font-size: 19px;
         line-height: 27px;
@@ -387,9 +383,11 @@ footer p {
         grid-area: fig1;
     }
     
-    .about p {
+    .about .container p {
         grid-area: p;
         text-align: left;
+        font-size: 16px;
+        line-height: 22px;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -409,6 +407,8 @@ footer p {
         margin-top: 20px;
         margin-bottom: 30px;
     }
+    
+    
     
 /*
     .about p {
@@ -484,5 +484,19 @@ footer p {
     .icon {
         width: 130px;
     }
-    
 }
+
+/* ------------------------480px-1200px--------------------------------- */
+@media (min-width: 480px) and (max-width: 1240px){
+    .container {
+        padding: 0 5%;
+    }
+}    
+    
+/* ------------------------1241px--------------------------------- */
+@media (min-width: 1241px) {
+    .container {
+        padding: 0 0;
+    }
+ 
+    
