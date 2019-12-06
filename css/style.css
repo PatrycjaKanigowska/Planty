@@ -366,28 +366,26 @@ footer p {
     .about article {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto 42px;
+        grid-template-rows: auto auto 42px auto;
         grid-column-gap: 3%;
         grid-template-areas: 
             "fig1 l"
             "fig1 p"
-            "fig1 b";
+            "fig1 b"
+            "fig1 .";
     }
     
     .logo {
         grid-area: l;
-        margin-top: 10%;
     }
     
     .about figure {
         grid-area: fig1;
     }
     
-    .about .container p {
+    .about p {
         grid-area: p;
         text-align: left;
-        font-size: 16px;
-        line-height: 22px;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -398,7 +396,7 @@ footer p {
     }
     
     .plant-1::after {
-        height: 85%;
+        height: 89%;
         top: 3.5%;
         left: 4%;
     }
@@ -407,8 +405,6 @@ footer p {
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    
-    
     
 /*
     .about p {
@@ -437,7 +433,18 @@ footer p {
     
     .contact form {
         grid-area: f;
-    }   
+    }  
+    
+    .icons, footer p {
+        display: inline-block;
+    }
+    
+    footer .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
 }
 
 /* ------------------------900px--------------------------------- */
@@ -447,9 +454,27 @@ footer p {
     }
     
     .about p {
-        font-size: 19px;
-        line-height: 27px;
+        font-size: 22px;
+        line-height: 31px;
     }
+    
+    .about article {
+        grid-template-rows: auto auto 50px auto;
+    }
+    
+    .btn {
+        font-size: 24px;
+        padding: 10px 0;
+        width: 320px;
+    }
+    
+    .copyrights {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    
+}
 
 /* ------------------------1200px--------------------------------- */
 @media (min-width: 1200px) {
@@ -481,9 +506,11 @@ footer p {
         font-size: 25px;
     }
     
+/*
     .icon {
         width: 130px;
     }
+*/
 }
 
 /* ------------------------480px-1200px--------------------------------- */
