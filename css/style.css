@@ -141,10 +141,12 @@ figure {
     left: 4%;
 }
 
+/*
 .btn-1 {
     margin-top: 15px;
     margin-bottom: 20px;
 }
+*/
 
 /* ------------------------------Nature------------------------------------ */
 h4 {
@@ -218,7 +220,6 @@ input, textarea {
 textarea {
     border: 2px solid #051405;
     resize: none;
-    margin-bottom: 15px;
 }
 
 .btn {
@@ -229,6 +230,8 @@ textarea {
     width: 240px;
     background: #acceb7;
     cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 label {
@@ -262,15 +265,10 @@ label:last-of-type {
     content: "";
     position: absolute;
     width: 95%;
-    height: 87%;
+    height: 100%;
     border: 3px solid #acceb7;
     top: 3%;
     left: 0;
-}
-
-.contact img {
-    margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 /* ------------------------------Footer------------------------------------ */
@@ -294,6 +292,7 @@ footer a:visited {
 
 footer {
     background-color: #acceb7;
+    margin-top: 40px;
 }
 
 footer li {
