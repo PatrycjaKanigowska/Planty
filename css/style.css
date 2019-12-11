@@ -141,13 +141,6 @@ figure {
     left: 4%;
 }
 
-/*
-.btn-1 {
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-*/
-
 /* ------------------------------Nature------------------------------------ */
 h4 {
     font-size: 30px;
@@ -235,6 +228,7 @@ textarea {
 }
 
 label {
+    display: inline-block;
     margin-top: 15px;
 }
 
@@ -613,5 +607,6 @@ footer p {
     .container {
         padding: 0 0;
     }
+}
  
     
