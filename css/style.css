@@ -231,7 +231,7 @@ label {
 }
 
 .contact form {
-    width: 400px;
+    //width: 400px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -420,10 +420,14 @@ footer p {
     .contact .container {
         display: grid;
         grid-template-columns: 1fr minmax(403px, 1fr);
-        grid-gap: 20px;
+        grid-gap: 3%;
         grid-template-areas: 
             "h fig2"
             "f fig2";
+    }
+    
+    .plant-2::after {
+        height: 96.5%;
     }
     
     .contact h2 {
