@@ -231,8 +231,8 @@ label {
 }
 
 .contact form {
-    //width: 400px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -335,7 +335,7 @@ footer p {
 
 /* ------------------------768px--------------------------------- */
 @media (min-width: 768px) {
-    
+    /*----Fonts----*/   
     h2 {
         font-size: 50px;
     }
@@ -349,14 +349,7 @@ footer p {
         font-size: 20px;
     }
     
-    .description {
-        padding-bottom: 30px;
-    }
-    
-    .role {
-        padding-bottom: 40px;
-    } 
-    
+    /*----Header----*/    
     nav li {
         display: inline-block;
         padding: 10px 3%;
@@ -366,6 +359,7 @@ footer p {
         text-align: center;
     }
     
+    /*----About----*/
     .about article {
         display: grid;
         grid-template-columns: 40% 57%;
@@ -416,18 +410,24 @@ footer p {
     margin-bottom: 15px;
 }
 */
+     /*----Reviews----*/
+    .description {
+        padding-bottom: 30px;
+    }
     
+    .role {
+        padding-bottom: 40px;
+    } 
+    
+    /*----Contact----*/
     .contact .container {
         display: grid;
         grid-template-columns: 1fr minmax(403px, 1fr);
         grid-gap: 3%;
         grid-template-areas: 
-            "h fig2"
+            "h ."
+            "f fig2"
             "f fig2";
-    }
-    
-    .plant-2::after {
-        height: 96.5%;
     }
     
     .contact h2 {
@@ -441,7 +441,22 @@ footer p {
     
     .contact figure {
         grid-area: fig2;
-        margin-top: 34%;
+        //margin-top: 34%;
+    }
+    
+    .plant-2::after {
+        height: 96.5%;
+    }
+    
+    h2 {
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    /*----Formr----*/
+    .contact form {
+        max-width: 500px;
     }
     
     .btn {
@@ -459,25 +474,20 @@ footer p {
         margin-top: 10%;
     }
     
-    h2 {
-        font-size: 32px;
-        margin-top: 20px;
-        margin-bottom: 15px;
-    }
-    
-    .icons, footer p {
-        display: inline-block;
-    }
-    
+    /*----Footer----*/
     footer .container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
     
+    .icons, footer p {
+        display: inline-block;
+    }
+    
     footer p {
         padding-top: 21px;
-    }   
+    } 
 }
 
 /* ------------------------900px--------------------------------- */
