@@ -221,7 +221,7 @@ textarea {
     background: #acceb7;
     cursor: pointer;
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
 }
 
 label {
@@ -444,7 +444,8 @@ footer p {
     /*----Contact----*/
     .contact .container {
         display: grid;
-        grid-template-columns: 1fr minmax(403px, 1fr);
+        //grid-template-columns: 1fr minmax(300px, 1fr);
+        grid-template-columns: 43% 54%;
         grid-gap: 3%;
         grid-template-areas: 
             "h ."
@@ -486,13 +487,12 @@ footer p {
     }
     
     .btn-2 {
-        margin-top: 25%;
+        margin-top: 20%;
         margin-bottom: 20px;
     }
 
-    label:nth-of-type(2),
-    label:nth-of-type(3) {
-        margin-top: 10%;
+    label {
+        margin-top: 9%;
     }
     
     /*----Footer----*/
@@ -506,9 +506,17 @@ footer p {
         display: inline-block;
     }
     
+    .copyrights {
+        text-align: left;
+    }
+    
     footer p {
         padding-top: 21px;
     } 
+    
+    footer {
+        margin-top: 40px;
+    }
 }
 
 /* ------------------------900px--------------------------------- */
@@ -545,6 +553,10 @@ footer p {
 
 /* ----------------Reviews-920px--------------------------------- */    
 @media (min-width: 920px) {
+    .reviews .container {
+        grid-template-rows: auto;
+    }
+    
     .expert {
         max-width: 46.5%;
     }
@@ -565,9 +577,9 @@ footer p {
         padding-top: 20px;
     }
     
-    .reviews .expert:nth-last-of-type(2) {
+    .reviews .expert:nth-last-of-type(1) {
         position: relative;
-        top: 100px;
+        top: -80px;
     }
     
     .contact h2 {
