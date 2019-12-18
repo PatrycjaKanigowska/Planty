@@ -639,10 +639,6 @@ footer p {
         font-size: 20px;
     }
     
-    h4 {
-        font-size: 62px;
-    }
-    
     h2 {
         font-size: 82px;
     }
@@ -676,6 +672,15 @@ footer p {
      footer p {
         padding-top: 27px;
     }
+    
+    /*----Nature----*/
+    h4 {
+        font-size: 62px;
+        line-height: 80px;
+        padding-top: 200px;
+        padding-bottom: 60px;
+    }
+    
     
  /*   
     .container {
