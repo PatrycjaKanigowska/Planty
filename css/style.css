@@ -624,6 +624,10 @@ footer p {
 /* ------------------------1025--------------------------------- */
 @media (min-width: 1025px) {
     /*----About----*/
+    .btn {
+        width: 360px;  
+    }
+    
     .btn-1, .placeholder {
         margin-top: 10%;
     }
