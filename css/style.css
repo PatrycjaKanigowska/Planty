@@ -140,7 +140,7 @@ figure {
     position: absolute;
     width: 95%;
     height: 100%;
-    border: 4px solid #acceb7;
+    border: 3px solid #acceb7;
     top: 3.5%;
     left: 4%;
 }
@@ -221,7 +221,7 @@ textarea {
     color: #fff;
     border: none;
     padding: 10px 0;
-    width: 260px;
+    width: 100%;
     background: #acceb7;
     cursor: pointer;
     margin-top: 15px;
@@ -294,6 +294,13 @@ footer p {
     padding-top: 20px;
 }
 
+/* ------------------------320px--------------------------------- */
+@media (min-width: 320px) {
+    .btn {
+        width: 260px;
+    }
+}
+
 /* ------------------------480px--------------------------------- */
 @media (min-width: 480px) {
     .container {
@@ -352,13 +359,30 @@ footer p {
 
 /* ------------------------600px--------------------------------- */
 @media (min-width: 600px) {
+    /*----Reviews positioning----*/
     .reviews .expert:nth-last-of-type(1) {
        justify-self: end;
     }
     
     .reviews .expert:nth-last-of-type(2) {
         justify-self: start;
+    }
     
+    /*----Borders of pseudo-elements----*/
+    .plant-1::after {
+        border: 5px solid #acceb7;
+    }
+    
+    .expert {
+        border: 5px solid #b7dbc8;
+    }
+    
+    .photo {
+        border: 5px solid #b7dbc8;
+    }
+    
+    .plant-2::after {
+        border: 5px solid #acceb7;
     }
 }
 
@@ -644,7 +668,7 @@ footer p {
     }
     
     h2 {
-        font-size: 82px;
+        font-size: 52px;
     }
 
     h3 {
@@ -676,6 +700,20 @@ footer p {
      footer p {
         padding-top: 27px;
     }
+    
+    
+    nav ul {
+        margin-bottom: 40px;
+    }
+    
+    /*----About----*/
+    .btn-1, .placeholder {
+        margin-top: 14%;
+    }
+    
+    .about p {
+        margin-top: 3%;
+    }  
     
     /*----Nature----*/
     h4 {
