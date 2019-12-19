@@ -266,6 +266,7 @@ label {
 .copyrights {
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: 1px;
     color: #fff;
 }
 
@@ -671,10 +672,6 @@ footer p {
         font-size: 52px;
     }
 
-    h3 {
-        font-size: 50px;
-    }
-
     .role {
         font-size: 22px;
     }
@@ -722,6 +719,41 @@ footer p {
         padding-top: 200px;
         padding-bottom: 60px;
     }
+    
+    h3 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-bottom: 12px;    
+    }
+    
+    .role {
+        padding-bottom: 40px; 
+    }
+ 
+    .description {
+        line-height: 30px;
+        padding-bottom: 30px; 
+    }
+    
+    .photo {
+        width: 140px;
+        top: 67px;
+        left: -76px;
+        right: auto;
+    }
+   
+    .reviews .expert:nth-last-of-type(1) {
+        top: -180px;
+    }
+    
+    .reviews h2 {
+        margin-bottom: 15px;
+    }
+    
+}
+    
+    
+    
     
     
  /*   
