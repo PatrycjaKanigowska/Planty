@@ -177,6 +177,7 @@ h3 {
 
 .expert {
     border: 4px solid #b7dbc8;
+    background-color: #fff;
     position: relative;
     margin-top: 70px;
 }
@@ -394,17 +395,6 @@ footer p {
         font-size: 50px;
     }
 
-/*
-    h3 {
-        font-size: 40px;
-        padding-top: 30px;
-    }
-    
-    .role {
-        font-size: 20px;
-    }
-*/
-    
     /*----Header----*/    
     nav li {
         display: inline-block;
@@ -463,35 +453,13 @@ footer p {
         //width: 90%;
         margin-bottom: 10px;
     }
-    
-/*
-    .about p {
-    line-height: 22px;
-    margin-top: 15%;
-    margin-bottom: 15px;
-}
-*/
-    
-    
+
     /*----Nature----*/
     h4 {
         text-align: right;
         padding-top: 100px;
         padding-bottom: 30px;
     }
-    
-    
-    
-     /*----Reviews----*/
-/*
-    .description {
-        padding-bottom: 30px;
-    }
-    
-    .role {
-        padding-bottom: 40px;
-    } 
-*/
     
     /*----Contact----*/
     .contact .container {
@@ -506,7 +474,6 @@ footer p {
     
     .contact h2 {
         grid-area: h;
-       //margin-top: 0;
     }
     
     .contact form {
@@ -599,7 +566,7 @@ footer p {
     }   
 }
 
-/* ----------------Reviews-920px--------------------------------- */    
+/* -------------------------920px--------------------------------- */    
 @media (min-width: 920px) {
     .reviews .container {
         grid-template-rows: auto;
@@ -625,9 +592,19 @@ footer p {
         padding-top: 20px;
     }
     
-    .reviews .expert:nth-last-of-type(1) {
+    .reviews .container {
         position: relative;
-        top: -80px;
+    }
+    
+    .reviews .expert:nth-last-of-type(1) {
+        position: absolute;
+        top: 160px;
+        margin-right: 40px;
+        max-width: 42.5%;
+    }
+    
+    .reviews .expert:nth-last-of-type(2) {
+        margin-bottom: 190px;
     }
     
     .contact h2 {
@@ -662,6 +639,45 @@ footer p {
     }  
 }
 
+/* -------------------------1070px--------------------------------- */    
+@media (min-width: 1070px) {
+    .role {
+        font-size: 22px;
+        padding-bottom: 40px; 
+    }
+    
+     h3 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-bottom: 12px;    
+    }
+    
+    .description {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 30px; 
+    }
+    
+    .photo {
+        width: 140px;
+        top: 67px;
+        left: -76px;
+        right: auto;
+    }
+   
+    .reviews .expert:nth-last-of-type(1) {
+        top: 240px;
+    }
+    
+    .reviews h2 {
+        margin-bottom: 15px;
+    }
+
+    .reviews .expert:nth-last-of-type(1) {
+        max-width: 43.5%;
+    }
+}
+
 /* ------------------------1200px--------------------------------- */
 @media (min-width: 1200px) {
     html {
@@ -670,10 +686,6 @@ footer p {
     
     h2 {
         font-size: 52px;
-    }
-
-    .role {
-        font-size: 22px;
     }
     
     input, textarea {
@@ -698,7 +710,6 @@ footer p {
         padding-top: 27px;
     }
     
-    
     nav ul {
         margin-bottom: 40px;
     }
@@ -719,106 +730,5 @@ footer p {
         padding-top: 200px;
         padding-bottom: 60px;
     }
-    
-    h3 {
-        font-size: 50px;
-        padding-top: 40px;
-        padding-bottom: 12px;    
-    }
-    
-    .role {
-        padding-bottom: 40px; 
-    }
- 
-    .description {
-        line-height: 30px;
-        padding-bottom: 30px; 
-    }
-    
-    .photo {
-        width: 140px;
-        top: 67px;
-        left: -76px;
-        right: auto;
-    }
-   
-    .reviews .expert:nth-last-of-type(1) {
-        top: -180px;
-    }
-    
-    .reviews h2 {
-        margin-bottom: 15px;
-    }
-    
 }
-    
-    
-    
-    
-    
- /*   
-    .container {
-        background-color: azure;
-    }
-    
-    .about figure {
-        position: relative;
-        left: -200px;
-    }
-*/
-    
-/*
-    .about article {
-        display: block;
-    }
-    
-    .plant-1 {
-        //display: none;
-        width: 700px;
-    }
-    
-    .mobile {
-        position: static;
-        width: 30%;
-    }
-    
-    figure {
-        //position: static;
-    }
-*/
-    
-/*
-    
-    figure {
-        position: relative;
-    }
-
-    .mobile {
-        position: absolute;
-        width: 80%;
-        right: 0;
-        top: 15%;
-    }
-
-    .plant-1 {
-        width: 95%;
-        margin-bottom: 15%;
-    }
-
-    .plant-1::after {
-        content: "";
-        position: absolute;
-        width: 95%;
-        height: 100%;
-        border: 4px solid #acceb7;
-        top: 3.5%;
-        left: 4%;
-    }
-*/  
-    
-
-
-    
-
- 
     
