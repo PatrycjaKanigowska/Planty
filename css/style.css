@@ -1,11 +1,6 @@
 @import url(reset.css);
 
 /* ------------------------------Basic styles------------------------------------ */
-html {
-    font-family: 'Muli', sans-serif;
-    font-size: 16px;
-}
-
 .container {
     width: 100%;
     max-width: 1200px;
@@ -31,6 +26,11 @@ li, .about p, h4, h3, h2, .role, .description, .copyrights, footer ul {
 }
 
 /* ------------------------------Fonts------------------------------------ */
+html {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+}
+
 nav li,
 h2, 
 h3, 
@@ -74,6 +74,10 @@ nav a:active,
 nav a:hover,
 nav a:visited { 
     color: #000;
+}
+
+h2 {
+    letter-spacing: 2px;
 }
 
 /* ------------------------------Header------------------------------------ */
@@ -204,11 +208,13 @@ input {
 }
 
 input, textarea {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
     width: 100%;
     background: none;
     color: #051405;
     padding: 10px;
-    font-size: 16px;
 }
 
 textarea {
@@ -563,7 +569,12 @@ footer p {
     .icon {
         width: 55px;
         margin: 15px 10px;
-    }   
+    } 
+    
+    /*----Form----*/
+    label, input, textarea {
+        font-size: 19px;
+    }
 }
 
 /* -------------------------920px--------------------------------- */    
@@ -688,7 +699,7 @@ footer p {
         font-size: 52px;
     }
     
-    input, textarea {
+    label, input, textarea {
         font-size: 22px;
     }
     
