@@ -632,7 +632,7 @@ footer p {
     }
     
     .reviews .expert:nth-last-of-type(2) {
-        margin-bottom: 190px;
+        margin-bottom: 100px;
     }
     
     .contact h2 {
@@ -692,7 +692,7 @@ footer p {
         left: -76px;
         right: auto;
     }
-   
+    
     .reviews .expert:nth-last-of-type(1) {
         top: 240px;
     }
@@ -703,6 +703,10 @@ footer p {
 
     .reviews .expert:nth-last-of-type(1) {
         max-width: 43.5%;
+    }
+    
+    .reviews .expert:nth-last-of-type(2) {
+        margin-bottom: 190px;
     }
 }
 
