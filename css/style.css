@@ -528,6 +528,8 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+        height: 80px;
     }
     
     .icons, footer p {
@@ -539,8 +541,13 @@ footer p {
     }
     
     footer p {
-        padding-top: 21px;
+        padding-top: 0;
     } 
+    
+    .icon {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     
     footer {
         margin-top: 40px;
@@ -565,6 +572,16 @@ footer p {
         width: 320px;
     }
     
+    /*----Form----*/
+    label, input, textarea {
+        font-size: 19px;
+    }
+    
+    /*----Footer----*/
+    footer .container {
+        height: 90px;
+    }
+    
     .copyrights {
         font-size: 18px;
         line-height: 23px;
@@ -572,13 +589,9 @@ footer p {
     
     .icon {
         width: 55px;
-        margin: 15px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     } 
-    
-    /*----Form----*/
-    label, input, textarea {
-        font-size: 19px;
-    }
 }
 
 /* -------------------------920px--------------------------------- */    
@@ -711,20 +724,6 @@ footer p {
         font-size: 25px;
     }
     
-    .copyrights {
-        font-size: 20px;
-        line-height: 27px;
-    }
-    
-    .icon {
-        width: 70px;
-        margin: 17px 10px;
-    }  
-    
-     footer p {
-        padding-top: 27px;
-    }
-    
     nav ul {
         margin-bottom: 40px;
     }
@@ -745,5 +744,20 @@ footer p {
         padding-top: 200px;
         padding-bottom: 60px;
     }
+    
+    /*----Footer----*/
+    footer .container {
+        height: 110px;
+    }
+    
+    .copyrights {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    .icon {
+        width: 70px;
+    }  
+    
 }
     
