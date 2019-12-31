@@ -158,7 +158,7 @@ h4 {
 }
 
 .nature {
-    background-image: url(../img/bg@2x.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -461,6 +461,10 @@ footer p {
     }
 
     /*----Nature----*/
+    .nature {
+        background-image: url(../img/bg@2x.jpg);
+    }
+    
     h4 {
         text-align: right;
         padding-top: 100px;
@@ -671,7 +675,7 @@ footer p {
     
     .photo {
         width: 140px;
-        top: 67px;
+        top: 72px;
         left: -76px;
         right: auto;
     }
